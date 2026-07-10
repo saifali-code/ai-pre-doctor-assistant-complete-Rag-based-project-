@@ -1,4 +1,4 @@
-# 🏆 AI Pre-Doctor Assistant Complete Project
+# 🏆 AI Pre-Doctor Assistant
 
 An AI-powered conversational triage assistant. A patient describes symptoms in a chat interface,
 the AI asks intelligent follow-up questions, builds a structured medical summary, recommends the
