@@ -1,0 +1,29 @@
+/**
+ * FILE: frontend/src/index.css
+ * PURPOSE: Global stylesheet — pulls in Tailwind's layers. Imported once in main.jsx.
+ * CONNECTS TO: tailwind.config.js (theme), main.jsx (imports this file).
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+/**
+ * AI_PROMPT (as a trailing comment block — valid in CSS):
+ * ---------------------------------------------------------------------------------------
+ * Project: "AI Pre-Doctor Assistant" frontend. This file, frontend/src/index.css, is the
+ * single global stylesheet, imported once by src/main.jsx, providing Tailwind's base layer to
+ * every component.
+ *
+ * Task: Generate a production-ready version of ONLY this file that:
+ *  1. Adds a small set of custom base styles for a trustworthy healthcare aesthetic: readable
+ *     line-height, focus-visible outlines for accessibility, smooth scroll for the chat window.
+ *  2. Adds any custom @layer utilities needed repeatedly across components (e.g., a
+ *     `.chat-bubble` base class) rather than letting every component redefine long Tailwind
+ *     class strings — coordinate naming with MessageBubble.jsx.
+ *  3. Keeps the three @tailwind directives at the top unchanged/first, since Tailwind requires
+ *     this ordering to inject its layers correctly.
+ */

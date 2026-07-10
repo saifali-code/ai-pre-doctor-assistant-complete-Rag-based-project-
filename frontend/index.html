@@ -1,0 +1,31 @@
+<!--
+  FILE: frontend/index.html
+  PURPOSE: The single HTML shell Vite mounts the React app into.
+  CONNECTS TO: src/main.jsx is loaded as a module script and renders <App /> into #root.
+-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Pre-Doctor Assistant</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
+<!--
+  AI_PROMPT:
+  ---------------------------------------------------------------------------------------
+  Project: "AI Pre-Doctor Assistant" frontend. This file, frontend/index.html, is the HTML
+  entry point Vite serves; it mounts src/main.jsx into the #root div, which renders App.jsx.
+
+  Task: Generate a production-ready version of ONLY this file that:
+   1. Adds proper meta tags (description, Open Graph tags) for a trustworthy-looking shareable
+      link when this app is shared, plus a favicon reference.
+   2. Adds a <noscript> fallback message given this is a health-adjacent tool where users might
+      have JS disabled or a load failure.
+   3. Keeps the #root mount point id and the src/main.jsx module script path unchanged, since
+      main.jsx hardcodes `document.getElementById("root")`.
+-->
