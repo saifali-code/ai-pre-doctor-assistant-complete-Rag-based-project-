@@ -64,7 +64,7 @@ runs end-to-end but is not production-grade yet. Every file has:
   to generate a production-ready version of *that specific file only*, with full context of how it
   fits the rest of the system.
 
-## Future enhancements (see ARCHITECTURE.md § Roadmap)
+## Future enhancements (see ARCHITECTURE.md § Roadmap):
 Voice input, multilingual support (Urdu/Roman Urdu), doctor-side dashboard, symptom-checker
 knowledge base grounding (RAG over verified medical sources), triage urgency alerts (red-flag
 symptoms → "go to ER now"), WhatsApp bot channel, analytics for hospitals/clinics (B2B angle).
