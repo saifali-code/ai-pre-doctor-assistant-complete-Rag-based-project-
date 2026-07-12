@@ -30,7 +30,7 @@ ai-pre-doctor-assistant/
 └── README.md (this file)
 ```
 
-## How data flows (high level)
+## How data flows (high level):
 
 1. Patient opens ChatPage (frontend) → sends first message.
 2. Frontend `api/client.js` POSTs to backend `/api/chat/message`.
@@ -43,7 +43,7 @@ ai-pre-doctor-assistant/
 7. Patient clicks "Download PDF" → frontend calls `/api/summary/:id/pdf` → `pdfService.js`
    generates PDF with pdf-lib → streamed back to browser for download/share.
 
-## Getting started (see full step-by-step in ARCHITECTURE.md)
+## Getting started (see full step-by-step in ARCHITECTURE.md):
 
 ```bash
 # Backend
