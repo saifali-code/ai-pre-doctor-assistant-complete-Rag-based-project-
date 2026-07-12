@@ -55,7 +55,7 @@ cd frontend && npm install && cp .env.example .env  # fill in VITE_API_URL
 npm run dev
 ```
 
-## Important
+## Important:
 This scaffold intentionally contains ONLY minimal starter code in every file so the project
 runs end-to-end but is not production-grade yet. Every file has:
 - A header comment explaining its purpose and connections.
